@@ -1,6 +1,5 @@
 def read_file() -> str:
   data_filename = __file__.replace('solutions', 'data').replace('.py', '.txt')
-  # data_filename = "/Users/chad/aoc_py_2022/data/test.txt"
   with open(data_filename, "r") as file:
     return file.read().strip()
 
